@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jiSGXZQOg6k=",
+  "dgSpecHash": "ib8sm55sfe8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones\\Entregable-Universities\\Entregable-Universities.csproj",
+  "projectFilePath": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Entregable-Universities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ofima88\\.nuget\\packages\\erikej.entityframeworkcore.dgmlbuilder\\6.0.0\\erikej.entityframeworkcore.dgmlbuilder.6.0.0.nupkg.sha512",
     "C:\\Users\\ofima88\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

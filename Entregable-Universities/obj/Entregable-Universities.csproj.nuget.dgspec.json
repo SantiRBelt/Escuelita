@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones\\Entregable-Universities\\Entregable-Universities.csproj": {}
+    "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Entregable-Universities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones\\Entregable-Universities\\Entregable-Universities.csproj": {
+    "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Entregable-Universities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones\\Entregable-Universities\\Entregable-Universities.csproj",
+        "projectUniqueName": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Entregable-Universities.csproj",
         "projectName": "Entregable-Universities",
-        "projectPath": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones\\Entregable-Universities\\Entregable-Universities.csproj",
+        "projectPath": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Entregable-Universities.csproj",
         "packagesPath": "C:\\Users\\ofima88\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones\\Entregable-Universities\\obj\\",
+        "outputPath": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

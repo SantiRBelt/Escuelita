@@ -1,4 +1,5 @@
 
+using System.Net;
 using Entregable_Universities;
 using Entregable_Universities.Services;
 using Microsoft.EntityFrameworkCore;
@@ -21,7 +22,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddJwtTokenServices(builder.Configuration);
 
-builder.Services.AddControllers();
 
 //Add custom Services
 builder.Services.AddScoped<IstudentsService, StudentsService>();
@@ -36,6 +36,10 @@ builder.Services.AddCors(options =>
         builder.AllowAnyHeader();
     });
 });
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Listen(IPAddress.Any, 60);  // Escuchar en el puerto 60
+});
 
 var app = builder.Build();
 
@@ -46,7 +50,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 app.MapControllers();
