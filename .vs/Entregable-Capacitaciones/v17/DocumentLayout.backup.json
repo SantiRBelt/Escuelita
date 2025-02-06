@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,19 +47,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Program.cs",
-              "RelativeDocumentMoniker": "Entregable-Universities\\Program.cs",
-              "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Program.cs",
-              "RelativeToolTip": "Entregable-Universities\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T16:05:06.282Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\appsettings.json",
+              "RelativeDocumentMoniker": "Entregable-Universities\\appsettings.json",
+              "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\appsettings.json",
+              "RelativeToolTip": "Entregable-Universities\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T19:41:53.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Program.cs",
+              "RelativeDocumentMoniker": "Entregable-Universities\\Program.cs",
+              "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Program.cs",
+              "RelativeToolTip": "Entregable-Universities\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T16:05:06.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\Controllers\\StudentsController.cs",
@@ -63,12 +79,11 @@
               "RelativeToolTip": "Entregable-Universities\\Controllers\\StudentsController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T20:42:14.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T20:42:14.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BaseEntityModel.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Models\\BaseEntityModel.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\Models\\BaseEntityModel.cs",
@@ -76,12 +91,11 @@
               "RelativeToolTip": "Entregable-Universities\\Models\\BaseEntityModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T20:40:54.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T20:40:54.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StudentModel.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Models\\StudentModel.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\Models\\StudentModel.cs",
@@ -93,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ChapterModel.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Models\\ChapterModel.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\Models\\ChapterModel.cs",
@@ -105,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "StudentsService.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Services\\StudentsService.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\Services\\StudentsService.cs",

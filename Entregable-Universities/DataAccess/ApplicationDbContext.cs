@@ -13,11 +13,11 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<CategoryModel>().ToTable("Category");
-        modelBuilder.Entity<CourseModel>().ToTable("Course");
-        modelBuilder.Entity<StudentModel>().ToTable("Student");
-        modelBuilder.Entity<ChapterModel>().ToTable("Chapter");
-        modelBuilder.Entity<UserModel>().ToTable("User");
+        modelBuilder.Entity<CategoryModel>().ToTable("category");
+        modelBuilder.Entity<CourseModel>().ToTable("course");
+        modelBuilder.Entity<StudentModel>().ToTable("student");
+        modelBuilder.Entity<ChapterModel>().ToTable("chapter");
+        modelBuilder.Entity<UserModel>().ToTable("user");
         //modelBuilder.Entity<UserLogins>().ToTable("UserLogins");
 
     }
