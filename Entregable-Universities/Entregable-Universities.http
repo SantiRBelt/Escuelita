@@ -1,0 +1,6 @@
+@Entregable_Universities_HostAddress = http://localhost:5239
+
+GET {{Entregable_Universities_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
