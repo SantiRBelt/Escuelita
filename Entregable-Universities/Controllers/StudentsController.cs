@@ -26,7 +26,7 @@ namespace Entregable_Universities.Controllers
             return await _context.Students.ToListAsync();
         }
 
-        [HttpGet("GetDetailStudent/{id}")]
+        [HttpGet("GetStudentById/{id}")]
         public async Task<ActionResult<StudentModel>> GetStudentModel(int id)
         {
             var studentModel = await _context.Students.FindAsync(id);
