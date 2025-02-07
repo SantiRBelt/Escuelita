@@ -20,14 +20,12 @@ namespace Entregable_Universities.Controllers
             _context = context;
         }
 
-        // GET: api/GetAllListStudents
         [HttpGet("GetAllListStudents")]
         public async Task<ActionResult<IEnumerable<StudentModel>>> GetStudents()
         {
             return await _context.Students.ToListAsync();
         }
 
-        // GET: api/Students/5
         [HttpGet("GetDetailStudent/{id}")]
         public async Task<ActionResult<StudentModel>> GetStudentModel(int id)
         {
@@ -41,8 +39,6 @@ namespace Entregable_Universities.Controllers
             return studentModel;
         }
 
-        // PUT: api/Students/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("UpdateStudent")]
         public async Task<IActionResult> PutStudentModel(StudentModel studentModel)
         {
@@ -50,15 +46,11 @@ namespace Entregable_Universities.Controllers
             {
                 return BadRequest("Debe ingresar el Id o el Id enviado no es valido");
             }
-
-            // Buscar el estudiante existente en la base de datos
             var existingStudent = await _context.Students.FindAsync(studentModel.Id);
             if (existingStudent == null)
             {
                 return NotFound($"No se encontró un estudiante con ID: {studentModel.Id}");
             }
-
-            // Actualizar las propiedades del estudiante existente
             _context.Entry(existingStudent).CurrentValues.SetValues(studentModel);
 
             try
@@ -73,9 +65,6 @@ namespace Entregable_Universities.Controllers
             return NoContent();
         }
 
-
-        // POST: api/Students
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost("CreateStudent")]
         public async Task<ActionResult<StudentModel>> PostStudentModel(StudentModel studentModel)
         {
@@ -85,25 +74,19 @@ namespace Entregable_Universities.Controllers
             return CreatedAtAction("GetStudentModel", new { id = studentModel.Id }, studentModel);
         }
 
-        // DELETE: api/Students/5
         [HttpDelete("DeleteStudentById/{id}")]
         public async Task<IActionResult> DeleteStudentModel(int id)
         {
             var studentModel = await _context.Students.FindAsync(id);
             if (studentModel == null)
             {
-                return NotFound();
+                return NotFound($"No se encontró un estudiante con ID: {id}");
             }
 
             _context.Students.Remove(studentModel);
             await _context.SaveChangesAsync();
 
-            return NoContent();
-        }
-
-        private bool StudentModelExists(int id)
-        {
-            return _context.Students.Any(e => e.Id == id);
+            return Ok($"El estudiante con ID: {id} fue eliminado exitosamente.");
         }
     }
 }
