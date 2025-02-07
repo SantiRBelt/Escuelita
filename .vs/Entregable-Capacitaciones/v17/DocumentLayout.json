@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\DataAccess\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\DataAccess\\ApplicationDbContext.cs",
@@ -58,24 +58,25 @@
               "RelativeToolTip": "Entregable-Universities\\DataAccess\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T20:57:39.085Z"
+              "WhenOpened": "2025-02-06T20:57:39.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\appsettings.json",
               "RelativeDocumentMoniker": "Entregable-Universities\\appsettings.json",
               "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\appsettings.json",
               "RelativeToolTip": "Entregable-Universities\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-06T19:41:53.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Program.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\Program.cs",
@@ -83,8 +84,7 @@
               "RelativeToolTip": "Entregable-Universities\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T16:05:06.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T16:05:06.282Z"
             },
             {
               "$type": "Document",
