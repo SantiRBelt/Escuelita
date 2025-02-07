@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-const string connectionName = "UniversityDB";
+const string connectionName = "u963527317_student";
 var connectionString = builder.Configuration.GetConnectionString(connectionName);
 
 
