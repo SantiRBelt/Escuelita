@@ -43,15 +43,23 @@ namespace Entregable_Universities.Controllers
 
         // PUT: api/Students/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("UpdateStudentById/{id}")]
-        public async Task<IActionResult> PutStudentModel(int id, StudentModel studentModel)
+        [HttpPut("UpdateStudent")]
+        public async Task<IActionResult> PutStudentModel(StudentModel studentModel)
         {
-            if (id != studentModel.Id)
+            if (studentModel == null || studentModel.Id <= 0)
             {
-                return BadRequest();
+                return BadRequest("Debe ingresar el Id o el Id enviado no es valido");
             }
 
-            _context.Entry(studentModel).State = EntityState.Modified;
+            // Buscar el estudiante existente en la base de datos
+            var existingStudent = await _context.Students.FindAsync(studentModel.Id);
+            if (existingStudent == null)
+            {
+                return NotFound($"No se encontró un estudiante con ID: {studentModel.Id}");
+            }
+
+            // Actualizar las propiedades del estudiante existente
+            _context.Entry(existingStudent).CurrentValues.SetValues(studentModel);
 
             try
             {
@@ -59,18 +67,12 @@ namespace Entregable_Universities.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!StudentModelExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return StatusCode(500, "Error de concurrencia al actualizar el estudiante.");
             }
 
             return NoContent();
         }
+
 
         // POST: api/Students
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

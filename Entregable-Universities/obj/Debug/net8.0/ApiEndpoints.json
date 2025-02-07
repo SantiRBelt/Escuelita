@@ -225,16 +225,11 @@
   {
     "ContainingType": "Entregable_Universities.Controllers.StudentsController",
     "Method": "PutStudentModel",
-    "RelativePath": "api/Students/UpdateStudentById/{id}",
+    "RelativePath": "api/Students/UpdateStudent",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
       {
         "Name": "studentModel",
         "Type": "Entregable_Universities.Models.StudentModel",

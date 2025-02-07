@@ -311,21 +311,10 @@
         }
       }
     },
-    "/api/Students/UpdateStudentById/{id}": {
+    "/api/Students/UpdateStudent": {
       "put": {
         "tags": [
           "Students"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
         ],
         "requestBody": {
           "content": {
