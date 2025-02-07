@@ -20,15 +20,15 @@ namespace Entregable_Universities.Controllers
             _context = context;
         }
 
-        // GET: api/Students
-        [HttpGet]
+        // GET: api/GetAllListStudents
+        [HttpGet("GetAllListStudents")]
         public async Task<ActionResult<IEnumerable<StudentModel>>> GetStudents()
         {
             return await _context.Students.ToListAsync();
         }
 
         // GET: api/Students/5
-        [HttpGet("{id}")]
+        [HttpGet("GetDetailStudent/{id}")]
         public async Task<ActionResult<StudentModel>> GetStudentModel(int id)
         {
             var studentModel = await _context.Students.FindAsync(id);
@@ -43,7 +43,7 @@ namespace Entregable_Universities.Controllers
 
         // PUT: api/Students/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+        [HttpPut("UpdateStudentById/{id}")]
         public async Task<IActionResult> PutStudentModel(int id, StudentModel studentModel)
         {
             if (id != studentModel.Id)
@@ -74,7 +74,7 @@ namespace Entregable_Universities.Controllers
 
         // POST: api/Students
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
+        [HttpPost("CreateStudent")]
         public async Task<ActionResult<StudentModel>> PostStudentModel(StudentModel studentModel)
         {
             _context.Students.Add(studentModel);
@@ -84,7 +84,7 @@ namespace Entregable_Universities.Controllers
         }
 
         // DELETE: api/Students/5
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteStudentById/{id}")]
         public async Task<IActionResult> DeleteStudentModel(int id)
         {
             var studentModel = await _context.Students.FindAsync(id);
