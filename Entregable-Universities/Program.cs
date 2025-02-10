@@ -36,13 +36,13 @@ builder.Services.AddCors(options =>
         builder.AllowAnyHeader();
     });
 });
-builder.WebHost.ConfigureKestrel(options =>
-{
-    options.Listen(IPAddress.Any, 60);  // Escuchar en el puerto 60
-});
+//builder.WebHost.ConfigureKestrel(options =>
+//{
+//    options.Listen(IPAddress.Any, 60);  // Escuchar en el puerto 60
+//});
 
 var app = builder.Build();
-
+app.UseMiddleware<ApiResponseMiddleware>();
 
 
 if (app.Environment.IsDevelopment())

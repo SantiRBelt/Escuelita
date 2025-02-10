@@ -271,7 +271,7 @@
         }
       }
     },
-    "/api/Students/GetDetailStudent/{id}": {
+    "/api/Students/GetStudentById/{id}": {
       "get": {
         "tags": [
           "Students"

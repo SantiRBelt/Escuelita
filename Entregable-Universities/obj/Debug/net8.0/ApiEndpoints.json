@@ -199,7 +199,7 @@
   {
     "ContainingType": "Entregable_Universities.Controllers.StudentsController",
     "Method": "GetStudentModel",
-    "RelativePath": "api/Students/GetDetailStudent/{id}",
+    "RelativePath": "api/Students/GetStudentById/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
