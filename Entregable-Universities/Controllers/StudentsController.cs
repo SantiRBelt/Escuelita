@@ -80,13 +80,15 @@ namespace Entregable_Universities.Controllers
             var studentModel = await _context.Students.FindAsync(id);
             if (studentModel == null)
             {
-                return NotFound($"No se encontró un estudiante con ID: {id}");
+                //return NotFound($"No se encontró un estudiante con ID: {id}");
+                return NotFound(false);
             }
 
             _context.Students.Remove(studentModel);
             await _context.SaveChangesAsync();
 
-            return Ok($"El estudiante con ID: {id} fue eliminado exitosamente.");
+            //return Ok($"El estudiante con ID: {id} fue eliminado exitosamente.");
+            return Ok(true);
         }
     }
 }

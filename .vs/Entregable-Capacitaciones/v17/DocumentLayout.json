@@ -42,7 +42,8 @@
               "RelativeToolTip": "Entregable-Universities\\Models\\BaseEntityModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T21:00:46.062Z"
+              "WhenOpened": "2025-02-07T21:00:46.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -54,7 +55,8 @@
               "RelativeToolTip": "Entregable-Universities\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-06T19:41:53.391Z"
+              "WhenOpened": "2025-02-06T19:41:53.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,9 +66,10 @@
               "RelativeDocumentMoniker": "Entregable-Universities\\Program.cs",
               "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Program.cs",
               "RelativeToolTip": "Entregable-Universities\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T16:05:06.282Z"
+              "WhenOpened": "2025-02-06T16:05:06.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -76,7 +79,7 @@
               "RelativeDocumentMoniker": "Entregable-Universities\\Controllers\\StudentsController.cs",
               "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "Entregable-Universities\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwBwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwE8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T20:42:14.763Z",
               "EditorCaption": ""
