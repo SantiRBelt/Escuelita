@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Entregable-Universities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5d5da49463b9e75ccef29a18fef6304bd94331c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bf473f8428d354ffe9289f9feaef4ca9ad2d39b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Entregable-Universities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Entregable-Universities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

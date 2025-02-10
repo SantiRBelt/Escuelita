@@ -54,7 +54,6 @@ namespace Entregable_Universities.Controllers
                 return NotFound($"No se encontró un estudiante con ID: {studentModel.Id}");
             }
             _context.Entry(existingStudent).CurrentValues.SetValues(studentModel);
-
             try
             {
                 await _context.SaveChangesAsync();
@@ -63,10 +62,9 @@ namespace Entregable_Universities.Controllers
             {
                 return StatusCode(500, "Error de concurrencia al actualizar el estudiante.");
             }
-
-            return NoContent();
+            var data = await _context.Students.FindAsync(studentModel.Id);
+            return Ok(data);
         }
-
         [HttpPost("CreateStudent")]
         public async Task<ActionResult<StudentModel>> PostStudentModel(StudentModel studentModel)
         {
@@ -82,15 +80,11 @@ namespace Entregable_Universities.Controllers
             var studentModel = await _context.Students.FindAsync(id);
             if (studentModel == null)
             {
-                return NotFound($"No se encontró un estudiante con ID: {id}");
-                //return NotFound(false);
+                return NotFound(new {message = $"No se encontró un estudiante con ID: {id}" });
             }
-
             _context.Students.Remove(studentModel);
             await _context.SaveChangesAsync();
-
-            return Ok(new {Message = $"El estudiante con ID: {id} fue eliminado exitosamente." });
-            //return Ok(true);
+            return Ok(studentModel);
         }
     }
 }

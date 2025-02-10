@@ -18,6 +18,17 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<StudentModel>().ToTable("student");
         modelBuilder.Entity<ChapterModel>().ToTable("chapter");
         modelBuilder.Entity<UserModel>().ToTable("user");
+        base.OnModelCreating(modelBuilder);
+
+        foreach (var entityType in modelBuilder.Model.GetEntityTypes())
+        {
+            if (typeof(BaseEntityModel).IsAssignableFrom(entityType.ClrType))
+            {
+                modelBuilder.Entity(entityType.ClrType)
+                    .Property("CreatedAt")
+                    .Metadata.SetAfterSaveBehavior(Microsoft.EntityFrameworkCore.Metadata.PropertySaveBehavior.Ignore);
+            }
+        }
         //modelBuilder.Entity<UserLogins>().ToTable("UserLogins");
 
     }

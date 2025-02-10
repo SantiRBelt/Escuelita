@@ -40,10 +40,10 @@ public class ApiResponseMiddleware
                 // Crea la respuesta estandarizada
                 var apiResponse = new ApiResponse<object>
                 {
-                    Message = context.Response.StatusCode == 200 ? "Success" : "Error",
-                    Success = context.Response.StatusCode is >= 200 and < 300,
-                    Data = originalResponse,
-                    TimeStamp = DateTime.UtcNow
+                    message = context.Response.StatusCode is >= 200 and < 300 ? "Success" : "Error",
+                    success = context.Response.StatusCode is >= 200 and < 300,
+                    data = originalResponse,
+                    timeStamp = DateTime.UtcNow
                 };
 
                 // Serializa la respuesta estandarizada
@@ -69,10 +69,10 @@ public class ApiResponseMiddleware
 
             var errorResponse = new ApiResponse<object>
             {
-                Message = "An unexpected error occurred.",
-                Success = false,
-                Data = new { error = ex.Message },
-                TimeStamp = DateTime.UtcNow
+                message = "An unexpected error occurred.",
+                success = false,
+                data = new { error = ex.Message },
+                timeStamp = DateTime.UtcNow
             };
 
             var jsonErrorResponse = JsonSerializer.Serialize(errorResponse);
@@ -83,8 +83,8 @@ public class ApiResponseMiddleware
 
 public class ApiResponse<T>
 {
-    public string Message { get; set; }
-    public DateTime TimeStamp { get; set; }
-    public bool Success { get; set; }
-    public T Data { get; set; }
+    public string message { get; set; }
+    public DateTime timeStamp { get; set; }
+    public bool success { get; set; }
+    public T data { get; set; }
 }

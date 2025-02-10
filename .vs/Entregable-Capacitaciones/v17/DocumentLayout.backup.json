@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\models\\baseentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\models\\baseentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\infraestructure\\middleware\\apiresponsemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\infraestructure\\middleware\\apiresponsemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\models\\baseentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\models\\baseentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,33 +38,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiResponseMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Infraestructure\\Middleware\\ApiResponseMiddleware.cs",
-              "RelativeDocumentMoniker": "Entregable-Universities\\Infraestructure\\Middleware\\ApiResponseMiddleware.cs",
-              "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Infraestructure\\Middleware\\ApiResponseMiddleware.cs",
-              "RelativeToolTip": "Entregable-Universities\\Infraestructure\\Middleware\\ApiResponseMiddleware.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowFgAAAANAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\DataAccess\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Entregable-Universities\\DataAccess\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\DataAccess\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Entregable-Universities\\DataAccess\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T19:05:24.563Z",
+              "WhenOpened": "2025-02-10T21:04:35.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "BaseEntityModel.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Models\\BaseEntityModel.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\Models\\BaseEntityModel.cs",
               "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Models\\BaseEntityModel.cs",
               "RelativeToolTip": "Entregable-Universities\\Models\\BaseEntityModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T21:00:46.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\appsettings.json",
               "RelativeDocumentMoniker": "Entregable-Universities\\appsettings.json",
@@ -72,7 +72,8 @@
               "RelativeToolTip": "Entregable-Universities\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-06T19:41:53.391Z"
+              "WhenOpened": "2025-02-06T19:41:53.391Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,7 +83,7 @@
               "RelativeDocumentMoniker": "Entregable-Universities\\Program.cs",
               "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Program.cs",
               "RelativeToolTip": "Entregable-Universities\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T16:05:06.282Z",
               "EditorCaption": ""
@@ -95,7 +96,7 @@
               "RelativeDocumentMoniker": "Entregable-Universities\\Controllers\\StudentsController.cs",
               "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "Entregable-Universities\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T20:42:14.763Z",
               "EditorCaption": ""
