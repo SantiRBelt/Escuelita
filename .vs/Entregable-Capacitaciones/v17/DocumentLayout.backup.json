@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\infraestructure\\middleware\\apiresponsemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\infraestructure\\middleware\\apiresponsemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\models\\baseentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\models\\baseentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\models\\baseentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\models\\baseentitymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\infraestructure\\middleware\\apiresponsemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|solutionrelative:entregable-universities\\infraestructure\\middleware\\apiresponsemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E339CD29-6A36-4116-BB82-F2601080BD91}|Entregable-Universities\\Entregable-Universities.csproj|c:\\users\\ofima88\\source\\repos\\entregable-capacitaciones - copia\\entregable-universities\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +38,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ApiResponseMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Infraestructure\\Middleware\\ApiResponseMiddleware.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\Infraestructure\\Middleware\\ApiResponseMiddleware.cs",
               "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Infraestructure\\Middleware\\ApiResponseMiddleware.cs",
               "RelativeToolTip": "Entregable-Universities\\Infraestructure\\Middleware\\ApiResponseMiddleware.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCgAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowFgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T19:05:24.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BaseEntityModel.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Models\\BaseEntityModel.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\Models\\BaseEntityModel.cs",
               "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Models\\BaseEntityModel.cs",
               "RelativeToolTip": "Entregable-Universities\\Models\\BaseEntityModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T21:00:46.062Z"
+              "WhenOpened": "2025-02-07T21:00:46.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -81,20 +82,20 @@
               "RelativeDocumentMoniker": "Entregable-Universities\\Program.cs",
               "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Program.cs",
               "RelativeToolTip": "Entregable-Universities\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T16:05:06.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Entregable-Universities\\Controllers\\StudentsController.cs",
               "ToolTip": "C:\\Users\\ofima88\\source\\repos\\Entregable-Capacitaciones - copia\\Entregable-Universities\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "Entregable-Universities\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAUwFIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T20:42:14.763Z",
               "EditorCaption": ""

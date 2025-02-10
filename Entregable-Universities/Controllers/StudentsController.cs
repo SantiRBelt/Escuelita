@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Entregable_Universities.Models;
+using Microsoft.EntityFrameworkCore.Migrations.Operations;
+using Microsoft.DotNet.Scaffolding.Shared.Messaging;
 
 namespace Entregable_Universities.Controllers
 {
@@ -87,7 +89,7 @@ namespace Entregable_Universities.Controllers
             _context.Students.Remove(studentModel);
             await _context.SaveChangesAsync();
 
-            return Ok($"El estudiante con ID: {id} fue eliminado exitosamente.");
+            return Ok(new {Message = $"El estudiante con ID: {id} fue eliminado exitosamente." });
             //return Ok(true);
         }
     }

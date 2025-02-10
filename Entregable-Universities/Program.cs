@@ -1,4 +1,3 @@
-
 using System.Net;
 using Entregable_Universities;
 using Entregable_Universities.Services;
@@ -40,21 +39,22 @@ builder.WebHost.ConfigureKestrel(options =>
 {
     options.Listen(IPAddress.Any, 60);  // Escuchar en el puerto 60
 });
-
 var app = builder.Build();
-app.UseMiddleware<ApiResponseMiddleware>();
-
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseSwagger();
-app.UseSwaggerUI();
+//app.UseSwagger();
+//app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
-app.MapControllers();
-app.UseAuthorization();
+app.UseMiddleware<ApiResponseMiddleware>();
+app.UseRouting();
 app.UseCors("CorsPolicy");
+app.UseAuthorization();
+app.UseEndpoints(endpoints =>
+{
+    _ = endpoints.MapControllers();
+});
 app.Run();
