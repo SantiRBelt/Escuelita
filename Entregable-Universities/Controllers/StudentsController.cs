@@ -32,21 +32,20 @@ namespace Entregable_Universities.Controllers
         public async Task<ActionResult<StudentModel>> GetStudentModel(int id)
         {
             var studentModel = await _context.Students.FindAsync(id);
-
+            //var data =  $"el estudiante con id {id} no fue encontrado";
             if (studentModel == null)
             {
-                return NotFound();
+                return NotFound($"el estudiante con id {id} no fue encontrado");
             }
 
             return studentModel;
         }
-
         [HttpPut("UpdateStudent")]
         public async Task<IActionResult> PutStudentModel(StudentModel studentModel)
         {
             if (studentModel == null || studentModel.Id <= 0)
             {
-                return BadRequest("Debe ingresar el Id o el Id enviado no es valido");
+                return BadRequest("El id es obligatorio");
             }
             var existingStudent = await _context.Students.FindAsync(studentModel.Id);
             if (existingStudent == null)
